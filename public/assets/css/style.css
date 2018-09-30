@@ -1,0 +1,64 @@
+.article-short-text{
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    max-height:167px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position:relative;
+}
+.article-short-text:before {
+    content:'';
+    width:100%;
+    height:100%;    
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(transparent 150px, white);
+}
+
+#comment-body {
+    border-top: 1px solid #e9ecef;
+}
+
+form {
+    width: 100%;
+}
+
+#comment-input{
+    margin: 17px 0px;
+}
+
+.comment-row{
+    padding-bottom: 16px;
+}
+
+.modal-body{
+    padding-bottom: 0px;
+}
+
+.article-row{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #e9ecef;
+}
+
+#page-title{
+    font-family: 'Abril Fatface', cursive;
+}
+
+#page-intro{
+    font-family: 'Philosopher', sans-serif;
+    
+}
+
+h6{
+    line-height: 200%;
+}
+
+#author-post-date{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
